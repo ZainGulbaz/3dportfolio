@@ -18,7 +18,7 @@ const Contact = () => {
      
       <div className="flex flex-col sm:flex-row sm:justify-around gap-4 sm:gap-2 sm:items-center ">
 
-        <div className="text-lg font-bold mt-2 sm:mt-0">
+        <div className="text-lg font-bold mt-4 sm:mt-0">
           <div className="flex items-center text-sm sm:text-xl">
           <CiPhone  className="text-[#3B71CA]"/>
           +923364317217
