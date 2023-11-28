@@ -10,7 +10,7 @@ const Computer = () => {
         <hemisphereLight intensity={0.15} groundColor={"black"}/>
         <pointLight intensity={1}/>
         <primitive object={computer?.scene}
-        scale={1}
+        scale={0.75}
         position={[0,-0.25,-1.5]}
         />
     </mesh>
@@ -25,7 +25,7 @@ const ComputerCanvas=()=>{
         shadows
         camera={{position:[20,5,5],fov:25}}
         gl={{preserveDrawingBuffer:true}}
-        className="sm:!h-[330px] sm:!w-[650px] !h-[150px] !w-[275px]"
+        className="sm:!h-[650px] sm:!w-[850px] !h-[150px] !w-[275px]"
         >
 <Suspense fallback={<CanvasLoader/>}>
     <OrbitControls
