@@ -32,7 +32,8 @@ import {
     calcom,
     truckapp,
     codehoppers,
-    exDevs
+    exDevs,
+    mariadb
   } from "../assets";
 
 
@@ -82,10 +83,6 @@ import {
       icon: html,
     },
     {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
       name: "JavaScript",
       icon: javascript,
     },
@@ -106,8 +103,8 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "MariaDB",
+      icon: mariadb,
     },
     {
       name: "git",
@@ -245,7 +242,7 @@ import {
         },
       ],
       image: cem,
-      source_code_link: "https://github.com/ZainGulbaz",
+      source_code_link: "https://github.com/ZainGulbaz/cemoperator",
       iFrame:""
     },
     {
@@ -288,7 +285,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ZainGulbaz/tuckapp-backend",
       image:truckapp
     },
     {
@@ -310,7 +307,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ZainGulbaz/blogpost",
       iFrame:"https://www.loom.com/embed/1805f0d5114840a78c8d242839b087c6?sid=224a5c82-e444-4823-8440-3146420fabb6"
     }
   ];
